@@ -1,0 +1,7 @@
+parameters:
+#    pokemon_api.example.class: Pokemon\ApiBundle\Example
+
+services:
+#    pokemon_api.example:
+#        class: %pokemon_api.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

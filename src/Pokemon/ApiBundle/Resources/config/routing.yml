@@ -1,0 +1,8 @@
+pokemon_api_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PokemonApiBundle:Default:index }
+
+pokemon_api:
+    type:     rest
+    resource: "@PokemonApiBundle/Resources/config/routing_rest.yml"
+    prefix : /api
