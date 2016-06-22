@@ -73,7 +73,7 @@ class Attaques
     private $precis;
 
     /**
-     * @ORM\OneToOne(targetEntity="Types")
+     * @ORM\ManyToOne(targetEntity="Types")
      * @ORM\JoinColumn(name="type_id", referencedColumnName="id")
      * @JSON\Expose
      * @JSON\Groups({"api_process"})
