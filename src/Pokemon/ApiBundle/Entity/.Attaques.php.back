@@ -6,7 +6,7 @@
  * Description : 
  * Author(s)   : Harmony
  * Licence     : 
- * Last update : May 27, 2016
+ * Last update : Jun 22, 2016
  *
  **************************************************************************/
 
@@ -51,7 +51,7 @@ class Attaques
     private $nom;
 
     /**
-     * @ORM\Column(name="puissance", type="integer")
+     * @ORM\Column(name="puissance", type="integer", nullable=true)
      * @JSON\Expose
      * @JSON\Groups({"api_process"})
      * @JSON\Since("1.0")
@@ -62,7 +62,7 @@ class Attaques
     private $puissance;
 
     /**
-     * @ORM\Column(name="precis", type="integer")
+     * @ORM\Column(name="precis", type="integer", nullable=true)
      * @JSON\Expose
      * @JSON\Groups({"api_process"})
      * @JSON\Since("1.0")

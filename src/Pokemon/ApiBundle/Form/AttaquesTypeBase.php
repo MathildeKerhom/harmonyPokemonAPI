@@ -7,7 +7,7 @@
  * Description : 
  * Author(s)   : Harmony
  * Licence     : 
- * Last update : May 27, 2016
+ * Last update : Jun 22, 2016
  *
  **************************************************************************/
 
@@ -33,8 +33,8 @@ class AttaquesTypeBase extends AbstractType
     {
         $builder
             ->add('nom')
-            ->add('puissance')
-            ->add('precis')
+            ->add('puissance', null, array('required' => false))
+            ->add('precis', null, array('required' => false))
             
             
         ;
