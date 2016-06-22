@@ -74,7 +74,7 @@ class Objets
     private $quantite;
 
     /**
-     * @ORM\OneToOne(targetEntity="TypeObjet")
+     * @ORM\ManyToOne(targetEntity="TypeObjet")
      * @ORM\JoinColumn(name="type_id", referencedColumnName="id")
      * @JSON\Expose
      * @JSON\Groups({"api_process"})
